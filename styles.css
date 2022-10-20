@@ -1,0 +1,75 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+ } 
+ body{
+    font-size: 120%;
+    background-color: white;
+
+ }
+
+ .header{
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #597D35;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    font-family:century gothic;
+ }
+
+ form{
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+    
+
+ }
+.input-group{
+    margin: 10px 0px 10px 0px;
+   font-family: century gothic;
+ }
+ .input-group label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+    font-family:century gothic;
+    font-size: 15px;
+    
+ }
+
+ .input-group input{
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family: century gothic;
+ }
+
+    .btn{
+        border:  1px solid gray;
+        border-radius: 5px;
+        background:  none;
+        padding:  5px;
+        font-size:  15px;
+        font-family: "century gothic";
+        cursor: pointer;
+        margin:  10px;
+        transition:  0.8s;
+        color: black;
+        position:  relative;
+        overflow: hidden;
+    }
+    .btn:hover{
+        color:  white;
+        background-color: #597D35;
+    }
+
